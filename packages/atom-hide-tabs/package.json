@@ -1,0 +1,51 @@
+{
+  "name": "atom-hide-tabs",
+  "main": "./lib/atom-hide-tabs",
+  "version": "0.2.1",
+  "description": "Hides Atom tabs without disabling the tabs plugin",
+  "author": {
+    "name": "Gian Marco Toso",
+    "email": "info@gianmarcotoso.com"
+  },
+  "keywords": [
+    "atom",
+    "tabs",
+    "tab-bar",
+    "hide"
+  ],
+  "activationCommands": {
+    "atom-workspace": "atom-hide-tabs:toggle"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gianmarcotoso/atom-hide-tabs.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {},
+  "readme": "# atom-hide-tabs package\n\nHides Atom's tab bar without disabling the tab plugin.\n\n## Why?\n\nBecause I like to have a shorcut to close all open files and I found that the only way to do so, currently, is to close all tabs. The problem is that I also don't like tabs (I know, I'm picky), and the shortcut doesn't work if the `tabs` package is disabled. The solution? Hide them. It might be a dirty hack, but I'm ok with it.\n\n## How?\n\nAfter installing the package just run the `atom-hide-tabs:toggle` command from the command palette or through the defined shortcut (default is `ctrl-alt-t`). If you want to run this automatically, you can add the following line to your init script:\n\n```javascript\natom.commands.dispatch(atom.views.getView(atom.workspace), 'atom-hide-tabs:toggle');\n```\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/gianmarcotoso/atom-hide-tabs/issues"
+  },
+  "homepage": "https://github.com/gianmarcotoso/atom-hide-tabs#readme",
+  "_id": "atom-hide-tabs@0.2.1",
+  "_shasum": "2f0577019afe5837fbc8784bca7fd7a3869bae52",
+  "_resolved": "file:../d-11665-77911-1fmjtey/package.tgz",
+  "_from": "../d-11665-77911-1fmjtey/package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".coffee": [
+        "lib/atom-hide-tabs.coffee"
+      ],
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

@@ -1,0 +1,75 @@
+"*":
+  "activate-power-mode":
+    comboMode:
+      enabled: false
+    particles:
+      colours:
+        fixed: "#358804"
+      size: {}
+  "autocomplete-go":
+    snippetMode: "nameAndType"
+  "autocomplete-plus":
+    confirmCompletion: "enter"
+    maxVisibleSuggestions: 20
+  core:
+    disabledPackages: [
+      "gometalinter-linter"
+      "vim-mode"
+      "git-grep"
+      "go-format"
+      "keybinding-resolver"
+      "go-plus"
+      "gotests"
+      "tester-go"
+    ]
+    telemetryConsent: "limited"
+    themes: [
+      "nucleus-dark-ui"
+      "firewatch-syntax"
+    ]
+  editor:
+    fontSize: 16
+    showInvisibles: true
+    tabType: "soft"
+  "exception-reporting":
+    userId: "23b36af6-4386-c501-ff01-0ea04ee85bb6"
+  "go-config":
+    gopath: "/Volumes/Dados/codes_projects/golang"
+  "go-debug":
+    limitCommandsToGo: true
+  "one-dark-ui":
+    layoutMode: "Compact"
+    tabSizing: "Minimum"
+  "opened-files": {}
+  tabs:
+    addNewTabsAtEnd: true
+    enableVcsColoring: true
+  "terminal-plus":
+    core: {}
+    toggles:
+      runInsertedText: false
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  wakatime:
+    apikey: "Saved in your ~/.wakatime.cfg file"
+  "wakatime-hidden":
+    lastInit: 1480270945
+  welcome:
+    showOnStartup: false
+".erlang.source":
+  editor:
+    showIndentGuide: false
+core:
+  ignoredNames: [
+    ".git"
+    ".svn"
+    ".DS_Store"
+  ]
+"exception-reporting":
+  userId: "1062d4bd-750a-1a1b-28a7-e96c69e3f794"
+metrics:
+  userId: "1e735c989b12100acc91f11af6d26834973e187e"
+"release-notes":
+  viewedVersion: "0.78.0"
+welcome:
+  showOnStartup: false

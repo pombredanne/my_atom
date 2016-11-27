@@ -1,0 +1,65 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/hl/gz2yxrl15h7g5pj6gr17yjgh0000gn/T/d-1161025-2393-1al7x79/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/hl/gz2yxrl15h7g5pj6gr17yjgh0000gn/T/d-1161025-2393-1al7x79/package.tgz",
+        "spec": "/private/var/folders/hl/gz2yxrl15h7g5pj6gr17yjgh0000gn/T/d-1161025-2393-1al7x79/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/hl/gz2yxrl15h7g5pj6gr17yjgh0000gn/T/apm-install-dir-1161025-2393-1sjsy0m"
+    ]
+  ],
+  "_from": "../d-1161025-2393-1al7x79/package.tgz",
+  "_id": "nucleus-dark-ui@0.10.18",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/nucleus-dark-ui",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/hl/gz2yxrl15h7g5pj6gr17yjgh0000gn/T/d-1161025-2393-1al7x79/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/hl/gz2yxrl15h7g5pj6gr17yjgh0000gn/T/d-1161025-2393-1al7x79/package.tgz",
+    "spec": "/private/var/folders/hl/gz2yxrl15h7g5pj6gr17yjgh0000gn/T/d-1161025-2393-1al7x79/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-1161025-2393-1al7x79/package.tgz",
+  "_shasum": "d39a6a41e4d910a0d9ec8c2ba5f71529a5b5184c",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/hl/gz2yxrl15h7g5pj6gr17yjgh0000gn/T/d-1161025-2393-1al7x79/package.tgz",
+  "_where": "/private/var/folders/hl/gz2yxrl15h7g5pj6gr17yjgh0000gn/T/apm-install-dir-1161025-2393-1sjsy0m",
+  "bugs": {
+    "url": "https://github.com/ignism/nucleus-dark-ui/issues"
+  },
+  "dependencies": {},
+  "description": "An adaptable UI with your favorite syntax theme at its core!",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/ignism/nucleus-dark-ui#readme",
+  "keywords": [
+    "dark",
+    "adaptive",
+    "ui"
+  ],
+  "license": "MIT",
+  "name": "nucleus-dark-ui",
+  "optionalDependencies": {},
+  "readme": "# Nucleus Dark UI\n\nNucleus is an adaptable UI theme for Atom with your favorite syntax coloring at its core! This gives the UI a coherent feel, with whatever syntax theme you like to use. I used [Behave](https://atom.io/themes/behave-theme) in the screenshot below.\n\n![Screenshot](http://i.imgur.com/j7Vrom5.png)\n\n#### Installation\nInside atom go to settings, select Install and search for Nucleus.\n\nOr install directly from the console:\n\n`apm install nucleus-dark-ui`\n\n#### Requirements\nEvery color used in the UI is taken directly from a (dark) syntax theme. In order for this to work, the syntax theme needs to have a `syntax-variables.less`. A light version of this theme is still being worked on.\n\n#### Support\n[Buy me a coffee to keep me going](https://www.paypal.me/ignism)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ignism/nucleus-dark-ui.git"
+  },
+  "theme": "ui",
+  "version": "0.10.18"
+}

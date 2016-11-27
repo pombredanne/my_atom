@@ -1,0 +1,45 @@
+{
+  "name": "erlang-autocompile",
+  "main": "./lib/erlang-autocompile",
+  "version": "0.1.1",
+  "description": "Autocompile erlang files",
+  "keywords": [
+    "erlang",
+    "compilation",
+    "file",
+    "watch",
+    "watcher"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexgal/atom-erlang-autocompile.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {},
+  "readme": "# atom-erlang-autocompile\nAuto compiling erlang modules when saving them.\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/alexgal/atom-erlang-autocompile/issues"
+  },
+  "homepage": "https://github.com/alexgal/atom-erlang-autocompile#readme",
+  "_id": "erlang-autocompile@0.1.1",
+  "_shasum": "e40d9f6c744de72bbcdd4668de487f9a4fe9060f",
+  "_resolved": "file:../d-116530-13015-10fgjqp/package.tgz",
+  "_from": "../d-116530-13015-10fgjqp/package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".coffee": [
+        "lib/erlang-autocompile.coffee"
+      ],
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

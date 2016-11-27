@@ -1,0 +1,46 @@
+{
+  "name": "phoenix-elixir-snippets",
+  "version": "0.4.0",
+  "description": "Snippets for phoenix and elixir",
+  "engines": {
+    "atom": ">= 0.210.0"
+  },
+  "readmeFilename": "README.md",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/techgaun/phoenix-snippets.git"
+  },
+  "keywords": [
+    "atom",
+    "phoenix",
+    "elixir",
+    "snippets",
+    "erlang"
+  ],
+  "author": {
+    "name": "techgaun"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/techgaun/phoenix-snippets/issues"
+  },
+  "homepage": "https://github.com/techgaun/phoenix-snippets#readme",
+  "readme": "# phoenix-snippets\nPhoenix framework snippets I use with atom.io editor\n\n## Usage\n\nThis is nothing fancy but something that I use to speed up my work and reduce the amount of typing I do whenever I work with elixir. You can just go through the [snippet file](snippets/phoenix-elixir-snippets.cson) to get to know more about the snippets.\n\n![Phoenix Elixir Snippets](/images/phoenix-elixir-snippet.gif?raw=true)\n",
+  "_id": "phoenix-elixir-snippets@0.4.0",
+  "_shasum": "4fad339c041b901911ee6ec1f25f33495465799d",
+  "_resolved": "file:../d-116530-5794-i2ml8a/package.tgz",
+  "_from": "../d-116530-5794-i2ml8a/package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

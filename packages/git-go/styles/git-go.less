@@ -1,0 +1,160 @@
+@import "ui-variables";
+
+.git-go {
+  position: relative;
+  height: 300px; // should be divisble by 4
+  color: @text-color;
+  border-bottom: 2px solid @base-border-color;
+
+  &.focused {
+    background-color: @base-background-color;
+
+    atom-text-editor {
+      background-color: @base-background-color !important;
+    }
+
+    .tabs {
+      > li > span:after {
+        border-bottom: 1px solid @text-color-info;
+      }
+
+      > li.files > span:after {
+        width: 5px;
+      }
+
+      > li.branches > span:after, > li.tags > span:after {
+        width: 6px;
+      }
+
+      > .active {
+        border-right-color: @background-color-selected;
+        background-color: @tab-background-color-active;
+        color: @text-color-selected;
+      }
+    }
+
+    .displays {
+      background-color: @tab-background-color-active;
+      color: @text-color-selected;
+
+      h3 {
+        border-bottom-color: @tab-border-color;
+      }
+    }
+  }
+
+  > * {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+  }
+
+  .tabs {
+    border-right: 1px solid @base-border-color;
+    height: 100%;
+
+    > li {
+      align-items: center;
+      display: flex;
+      position: relative;
+      padding: 0 15px;
+      height: 25%;
+      box-sizing: border-box;
+      border-right: 2px solid @tab-border-color;
+      background-color: @app-background-color;
+
+      &:not(:last-of-type) {
+        border-bottom: 2px solid @base-border-color;
+      }
+
+      &.active {
+        background-color: @app-background-color;
+      }
+
+      &:hover {
+        cursor: pointer;
+        background-color: @background-color-highlight;
+        color: @text-color-highlight;
+      }
+      
+      > span:after {
+        border-bottom: 1px solid transparent;
+        content: ' ';
+        display: block;
+        width: 7px;
+      }
+    }
+  }
+
+  .displays {
+    height: 100%;
+    width: 100%;
+
+    > div {
+      overflow-x: scroll;
+      overflow-y: hidden;
+      height: 100%;
+
+      display: none;
+      &.console {
+        flex-direction: column;
+      }
+      
+      &.active {
+        display: block;
+        &.console {
+          display: flex;
+        }
+      }
+
+      > div {
+        width: 300px;
+        display: inline-block;
+        height: 100%;
+        padding: 12px;
+        overflow-y: scroll;
+        border-right: 1px solid @base-border-color;
+
+        > h2 {
+          margin: 0;
+          padding-bottom: 4px;
+        }
+
+        > h3 {
+          margin: 10px 0 -2px;
+          padding-bottom: 2px;
+          font-size: 1.3em;
+          border-bottom: 1px solid @base-border-color;
+        }
+
+        > span:not(.description):not(:nth-child(2)) {
+          font-weight: bold;
+        }
+
+        > span.description {
+          display: block;
+          padding-left: 10px;
+          margin-bottom: 5px;
+        }
+      }
+    }
+  }
+
+  #git-go-output {
+    flex: 1;
+    font-family: monospace;
+    padding: 6px;
+    white-space: pre;
+    width: 100%;
+  }
+
+  atom-text-editor {
+    background-color: @app-background-color !important;
+    border: none !important;
+    box-shadow: none !important;
+    font-family: monospace;
+    font-size: inherit !important;
+    width: 100%;
+  }
+}
